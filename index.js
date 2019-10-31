@@ -24,7 +24,7 @@ function greet(input_time){
   return time_greeting;
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(str){
+function displayMessage(string){
   let element = document.getElementById("greeting");
-  element.innerHTML = str;
+  element.innerHTML = string;
 }
