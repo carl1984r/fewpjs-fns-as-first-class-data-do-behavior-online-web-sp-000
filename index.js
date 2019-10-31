@@ -8,14 +8,14 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(input_time){
-  let split_time = input_time.split(":");
-  let join_time = split_time.join("");
-  let parse_time = parseInt(join_time);
+function greet(input){
+  let split = input.split(":");
+  let join = split.join("");
+  let parse = parseInt(join);
   let time_greeting = "";
-  if (parse_time < 1200 ){
+  if (parse < 1200 ){
     time_greeting =  "Good Morning";
-  } else if (parse_time >= 1200 && parse_time <= 1700) {
+  } else if (parse >= 1200 && parse <= 1700) {
 
     time_greeting = "Good Afternoon";
   } else {
