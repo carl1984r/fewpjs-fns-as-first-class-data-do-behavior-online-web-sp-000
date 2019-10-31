@@ -9,3 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+function displayMessage(str){
+  let element = document.getElementById("greeting");
+  element.innerHTML = str;
+
+}
