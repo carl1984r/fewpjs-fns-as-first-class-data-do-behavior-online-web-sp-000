@@ -12,5 +12,4 @@ function handleClick(e) {
 function displayMessage(str){
   let element = document.getElementById("greeting");
   element.innerHTML = str;
-
 }
